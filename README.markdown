@@ -1,7 +1,7 @@
 # 01 Foundation
 
 ### Introduction
-![001.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/001.png)
+![001.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/001.png)
 1. 게임 팀에서의 각 역할군이 수행하는 업무 내용
     - 프로그래머 아티스트 기획자 등
 2. 게임 장르와 종류에 대한 소개
@@ -22,8 +22,8 @@
     - 게임에 이러한 애셋을 어떻게 적용하는지에 대한 소개
 
 ### Tools of the Trade
-![002.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/002.png)
-![003.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/003.png)
+![002.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/002.png)
+![003.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/003.png)
 1. 버전 컨트롤을 하는 이유와 버전 컨트롤 시스템의 종류들
     - SVN Git Perforce 등의 시스템에 대한 소개
     - SVN을 자신의 프로젝트에 적용하는 방법
@@ -42,7 +42,7 @@
     - `hex editor`
 
 ### Fundamentals of Software Engineering for Games
-![004.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/004.png)
+![004.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/004.png)
 1. CPP와 OOP에 대한 개념을 짚고 넘어가기
     - 클래스와 객체 그리고 다형성 등의 개념에 대한 설명
     - 싱글톤을 비롯한 게임프로그래밍에서 사용되는 디자인패턴에 대한 소개
@@ -67,7 +67,7 @@
     - 캐시 지역성과 계층성 그리고 어드레싱 방법에 대한 설명
 
 ### Parallelism and Concurrent Programming
-![005.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/005.png)
+![005.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/005.png)
 1. 동시성과 병렬성에 대한 정의
     - 동시성은 복수 개의 연산이 동시에 실행되는 것
     - 병렬성은 복수 개의 하드웨어가 동시에 작동하는 것
@@ -110,7 +110,7 @@
     - SIMD에서 SIMT로 변환하는 과정에 대한 소개
 
 ### 3D Math for Games
-![006.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/006.png)
+![006.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/006.png)
 1. 2D에서의 해결책 중 일부는 3D에서도 유효함
 2. 벡터와 기하학에 대한 설명
 3. 행렬과 행렬을 사용한 3D 위상변화
@@ -133,7 +133,7 @@
 # 02 Low Level Engine Systems
 
 ### Engine Support Systems
-![007.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/007.png)
+![007.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/007.png)
 1. 시스템의 생성과 소멸 및 그 설계
     - 엔진시스템간의 관계에 따른 생성자과 소멸자 구성
     - 싱글톤 패턴에 대한 소개 및 그 구현
@@ -157,7 +157,7 @@
     - 글로벌 설정값과 유저별 설정값을 구분하는 개념
 
 ### Resources and the File System
-![008.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/008.png)
+![008.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/008.png)
 1. 다양한 종류의 파일을 다루는 게임 특성을 기반으로 하는 파일시스템
     - 플랫폼마다의 파일 주소 저장법의 차이점
     - 파일입출력을 위해 사용하는 함수들에 대한 소개
@@ -170,7 +170,7 @@
     - 런타임리소스매니저의 역할과 그 구성에 대한 소개
 
 ### The Game Loop and Real Time Simulation
-![009.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/009.png)
+![009.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/009.png)
 1. 렌더링 과정에 대한 소개
     - 과거 2D 그래픽이 주류였던 시기의 GUI 출력 방법
     - 3D 그래픽이 구성되는 간략한 과정과 대표적인 구조
@@ -196,7 +196,7 @@
     - `Job Systems` 방식으로 분할하기
 
 ### Human Interface Devices
-![010.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/010.png)
+![010.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/010.png)
 1. 인터페이스 기기들의 역사와 그 종류
     - 조이스틱을 비롯한 여러 가지 컨트롤러에 대한 소개
 2. 인터페이스 기기들을 처리하는 방법
@@ -217,8 +217,8 @@
     - 플레이어를 만족시키는 공학이기 때문에 실험이 많이 요구된다
 
 ### Tools for Debugging and Development
-![011.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/011.png)
-![012.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/012.png)
+![011.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/011.png)
+![012.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/012.png)
 1. 로깅이 필요한 이유와 이를 사용한 디버깅
     - 게임에서 `printf()` 방식 디버깅이 효과적인 이유
     - 지나치게 많은 로깅을 방지하기 위한 단계별 조절
@@ -256,7 +256,7 @@
 # 03 Graphics, Motion and Sound
 
 ### The Rendering Engine
-![013.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/013.png)
+![013.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/013.png)
 1. d
     - d
 2. d
@@ -269,7 +269,7 @@
     - d
 
 ### Animation Systems
-![014.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/014.png)
+![014.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/014.png)
 1. d
     - d
 2. d
@@ -294,7 +294,7 @@
     - d
 
 ### Collision and Rigid Body Dynamics
-![015.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/015.png)
+![015.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/015.png)
 1. d
     - d
 2. d
@@ -309,7 +309,7 @@
     - d
 
 ### Audio
-![016.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/016.png)
+![016.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/016.png)
 1. d
     - d
 2. d
@@ -328,7 +328,7 @@
 # 04 Gameplay
 
 ### Introduction to Gameplay Systems
-![017.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/017.png)
+![017.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/017.png)
 1. d
     - d
 2. d
@@ -339,7 +339,7 @@
     - d
 
 ### Runtime Gameplay Foundation Systems
-![018.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/018.png)
+![018.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/018.png)
 1. d
     - d
 2. d
@@ -366,7 +366,7 @@
 # 05 Conclusion
 
 ### You Mean There's More ?
-![019.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/tree/master/image/019.png)
+![019.png](https://github.com/BaeMinCheon/game-engine-architecture-preview-kor/blob/master/image/019.png)
 1. d
     - d
 2. d
